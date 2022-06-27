@@ -1,0 +1,231 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 64px 165px 0 165px;
+    align-items: center;   
+}
+
+header {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 32px;
+}
+
+header ul {
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header a {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    text-decoration: none;
+}
+
+header a:focus {
+    color: #5FB4A2;
+}
+
+header a:hover {
+    color: #5FB4A2;
+}
+
+.imagemPrincipal img {
+    width: 1110px;
+    height: 500px;
+}
+
+.main {
+    display: flex;
+    width: 1110px;
+    height: 1192px;
+}
+
+.main .esquerda {
+    width: 350px;
+    height: 498px;
+    margin-right: 125px;
+}
+
+.main .direita {
+    width: 635px;
+    height: 1192px;
+}
+
+.esquerda .linha1 {
+    width: 350px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15; 
+}
+
+.esquerda .linha2 {
+    width: 350px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+}
+
+.direita img {
+    width: 635px;
+    height: 400px;
+}
+
+.mudarPagina .linha1 {
+    width: 1110px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anterior {
+    display: flex;
+}
+
+.anterior .seta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.mudarPagina .linha2 {
+    width: 1110px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+    margin-bottom: 30px;
+}
+
+.posterior {
+    display: flex;
+}
+
+.posterior .seta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    background: #33323D;
+    width: 1440px;
+    height: 80px;
+    padding: 0 165px;
+}
+
+
+footer a {   
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer li {
+    list-style-type: none;
+
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 309px;
+    margin-left: 48px;
+    margin-right: 590px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.redespai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.img2 {
+    margin-right: 15px;
+}

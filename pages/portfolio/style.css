@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+     display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 64px 165px 0 165px;
+    align-items: center;
+}
+
+header {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 32px;
+}
+
+header ul {
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header a {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    text-decoration: none;
+}
+
+.link a {
+    color: #5FB4A2;
+}
+
+header a:focus {
+    color: #5FB4A2;
+}
+
+header a:hover {
+    color: #5FB4A2;
+}
+
+.foto1 img {
+    width: 540px;
+    height: 500px;
+    margin-right: 140px;
+}
+
+.sobre {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.sobre .texto1 {
+    width: 350px;
+    height: 500px;
+}
+
+.sobre .linha1 {
+    margin-bottom: 103px;
+    width: 350px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15; 
+}
+
+.sobre h1 {
+    margin-bottom: 28px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;   
+    color: #33323D;
+}
+
+.sobre button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 175px;
+    height: 48px;
+    border: 1px solid #33323D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    cursor: pointer;
+    margin-bottom: 65px;
+}
+
+.sobre .texto1 p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 54px;
+}
+
+.sobre .linha2 {
+    width: 350px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+}
+
+.sobre button:hover {
+    font-family: 'Public Sans', sans-serif;
+    background: #33323D;
+    color: #FAFAFA;
+    font-weight: 100;
+}
+
+.sobre a {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    padding: 17px 26px;
+}
+
+.sobre a:hover {
+    font-family: 'Public Sans', sans-serif;
+    color: #FAFAFA;
+    font-weight: 100;
+}
+
+.sobre .texto2 p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 54px;
+}
+
+.foto2 img {
+    width: 540px;
+    height: 500px;
+    margin-left: 125px;
+}
+
+.sobre .texto2 {
+    width: 350px;
+    height: 500px;
+}
+
+.foto3 img {
+    width: 540px;
+    height: 500px;
+    margin-right: 125px;
+}
+
+.sobre .texto3 {
+    width: 350px;
+    height: 500px;
+}
+
+.sobre .texto3 p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.foto4 img {
+    width: 540px;
+    height: 500px;
+    margin-left: 125px;
+}
+
+.sobre .texto4 {
+    width: 350px;
+    height: 500px;
+}
+
+.sobre .texto4 p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.contato {   
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.contato button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 168px;
+    height: 48px;
+    border: 1px solid #33323D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;   
+    color: #33323D;
+    cursor: pointer;
+}
+
+.contato h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;  
+    letter-spacing: -0.357143px;   
+    color: #33323D;
+    width: 367px;
+}
+
+.contato button:hover {
+    font-family: 'Public Sans', sans-serif;
+    background: #33323D;
+    color: #FAFAFA;
+    font-weight: 100;
+}
+
+.contato a {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;   
+    color: #33323D;
+    padding: 17px 50px;
+}
+
+.contato a:hover {
+    font-family: 'Public Sans', sans-serif;
+    color: #FAFAFA;
+    font-weight: 100;
+}
+
+footer {
+    display: flex;
+    background: #33323D;
+    width: 1440px;
+    height: 80px;
+    padding: 0 165px;
+}
+
+
+footer a {   
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 309px;
+    margin-left: 48px;
+    margin-right: 590px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.redespai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.img2 {
+    margin-right: 15px;
+}

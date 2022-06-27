@@ -1,0 +1,291 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 64px 165px 0 165px;
+    align-items: center; 
+}
+
+header {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+
+header nav { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 32px;
+}
+
+header ul {
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header a {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    text-decoration: none;
+}
+
+header a:focus {
+    color: #5FB4A2;
+}
+
+header a:hover {
+    color: #5FB4A2;
+
+}
+
+.linha1 {
+    width: 1110px;
+    height: 1px;
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    margin-bottom: 48px;
+}
+
+.texto {
+    display: flex;
+    width: 1110px;
+}
+
+
+.linha2 {
+    width: 1110px;
+    height: 1px;
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    margin-bottom: 47px;
+}
+
+.contato {
+    display: flex;
+    width: 1110px;
+    height: 426px;
+}
+
+.contato .titulo {
+    width: 475px;
+    height: 426px;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 48px;
+    background: #203A4C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario a {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background: #5FB4A2;
+}
+
+footer {
+    display: flex;
+    background: #33323D;
+    width: 1440px;
+    height: 80px;
+    padding: 0 165px;
+    margin-top: 109px
+}
+
+footer a {   
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 309px;
+    margin-left: 48px;
+    margin-right: 590px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.redespai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.img2 { 
+    margin-right: 15px;
+}
+
+.texto .titulo {
+    width: 475px;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;  
+    letter-spacing: -0.357143px;  
+    color: #33323D;
+}
+
+.texto .paragrafo {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;   
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 635px;
+    height: 180px;
+    margin-bottom: 54px;
+}
+
+.texto h1 {
+    margin-right: 125px;
+}
+
+.redes1 {
+    margin-bottom: 48px;
+}
+
+.redes1 img {
+    margin-right: 15px;
+}
+
+.nome input {
+    all: unset;   
+    box-sizing: border-box;
+     background: #dfdfdf;
+    mix-blend-mode: normal;
+    width: 635px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+.email input {
+    all: unset;  
+    box-sizing: border-box;
+    background: #dfdfdf;
+    mix-blend-mode: normal;
+    width: 635px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+.mensagem input {
+    all: unset;  
+    box-sizing: border-box;
+    background: #dfdfdf;
+    mix-blend-mode: normal;
+    width: 635px;
+    height: 96px;
+    margin-bottom: 24px;
+} 
+
+input:focus {
+    mix-blend-mode: normal;
+    border: 2px solid #000000;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.link a {
+    color: #5FB4A2;
+}
